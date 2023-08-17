@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+<body>
+    <h1>Todo App</h1>
+    
+    <div class="container">
+        <div class="todo-form">
+            <input type="text" id="todo-input" placeholder="Add a todo">
+            <button id="add-button">Add</button>
+        </div>
+    </div>
+    <div class="container">
+        <ul class="todo-list" id="todo-list">
+            <!-- Your tasks will be added here -->
+            <li class="todo-item">
+                <input type="checkbox" id="task_done1">
+                <label for="task_done">Dormir à 22h30</label>
+                <button class="delete">Supprimer</button>
+            </li>
+        </ul>
+    </div>
+    <script src="assets/js/todo.js"></script>
+</body>
+</html>
